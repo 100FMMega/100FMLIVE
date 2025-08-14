@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latest News - MEGA 100 FM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #001f3f, #ffc107);
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #ffc107, #003366);
+      padding: 20px 40px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      color: #003366;
+      font-size: 2.5em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section {
+      background: #003366;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .section h2 {
+      color: #ffc107;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .news-card {
+      background: #002244;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .news-card h3 {
+      color: #ffc107;
+      margin: 15px 15px 10px;
+      font-size: 1.2em;
+    }
+    .news-card p {
+      margin: 0 15px 15px;
+      font-size: 0.95em;
+      line-height: 1.4;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      background: #ffc107;
+      color: #003366;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .back-link:hover {
+      background: #e0a800;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MEGA 100 FM - News</h1>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>Latest News</h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <img src="WhatsApp Image 2025-08-14 at 14.22.47_71c3af33.jpg" alt="New Studio Launch">
+          <h3>New Studio Launch</h3>
+          <p>MEGA 100 FM has unveiled a modern digital studio to improve sound quality and streamline live shows.</p>
+        </div>
+        <div class="news-card">
+          <img src="news2.jpg" alt="Youth Programs">
+          <h3>Youth Empowerment</h3>
+          <p>Our weekend talk shows empower youth voices, providing a platform for local talent and innovation.</p>
+        </div>
+        <div class="news-card">
+          <img src="news3.jpg" alt="DJ Battles">
+          <h3>Friday Night DJ Battles</h3>
+          <p>Live DJ showdowns now airing every Friday at 9 PM. Vote for your favorite and win weekly prizes!</p>
+        </div>
+        <div class="news-card">
+          <img src="news4.jpg" alt="Awards">
+          <h3>Radio Awards 2025</h3>
+          <p>We won the Best Urban Station award at the Northern Music Awards – thanks to YOU, our listeners!</p>
+        </div>
+        <div class="news-card">
+          <img src="news5.jpg" alt="Community">
+          <h3>Community Spotlight</h3>
+          <p>Meet the local heroes making waves in Gulu: farmers, artists, teachers, and students on our airwaves.</p>
+        </div>
+        <div class="news-card">
+          <img src="news6.jpg" alt="Sports Coverage">
+          <h3>Full Sports Coverage</h3>
+          <p>We now cover local league games and live commentary of international football matches every weekend.</p>
+        </div>
+      </div>
+
+      <a href="index.html" class="back-link">← Back to Home</a>
+    </section>
+  </div>
+
+</body>
+</html>

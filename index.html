@@ -3,26 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Mega 100FM Radio – Gulu' Where Music Matters</title>
-<meta name="description" content="100FM Radio brings you the best Afrobeats, urban music, and youth culture from the heart of Gulu City. Tune in live 24/7.">
-
-<!-- Google and search engine metadata -->
-<meta name="robots" content="index, follow">
-<meta name="keywords" content="100FM Radio, Gulu radio, Uganda radio station, urban music, Afrobeats, youth radio, live radio Gulu">
-
-<!-- Open Graph for Facebook & social media -->
-<meta property="og:title" content="100FM Radio – Gulu' #1 Urban Youth Station">
-<meta property="og:description" content="Streaming Afrobeats, urban talk shows, and youth culture content straight out of Gulu Uganda.">
-<meta property="og:url" content="https://100fmradio.com">
-<meta property="og:type" content="website">
-<meta property="og:image" content=" "> <!-- Replace with actual logo/image URL -->
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="100FM Radio – Gulu' #Where Music Matters">
-<meta name="twitter:description" content="Gulu’ best youth-focused station for Afrobeats and more. Listen live now.">
-<meta name="twitter:image" content="https://100fmradio.com/images/logo.png"> <!-- Replace with actual image -->
-
+  <title>MEGA 100 FM - Where Music Matters</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -64,7 +45,7 @@
     .hero {
       text-align: center;
       padding: 120px 20px;
-      background: url('Studio 2.jpg') no-repeat center center;
+      background: url('../Folder 2025/Mega 100FM Web/Studio 2.jpg') no-repeat center center;
       background-size: cover;
       background-color: #000;
       position: relative;
@@ -79,20 +60,8 @@
       font-size: 1.4em;
       margin-bottom: 20px;
     }
-    .hero button {
-      background-color: #ffc107;
-      border: none;
-      padding: 14px 28px;
-      font-size: 1.1em;
-      font-weight: bold;
-      color: #000;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s, transform 0.3s;
-    }
-    .hero button:hover {
-      background-color: #e0a800;
-      transform: scale(1.05);
+    .hero audio {
+      margin-top: 20px;
     }
     .content {
       max-width: 1200px;
@@ -200,21 +169,56 @@
       color: #ffc107;
       letter-spacing: 2px;
     }
+
+    /* NEWS SECTION */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .news-card {
+      background: #002244;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+    .news-card h3 {
+      margin: 15px 15px 5px;
+      color: #ffc107;
+      font-size: 1.2em;
+    }
+    .news-card p {
+      margin: 0 15px 15px;
+      font-size: 0.95em;
+      line-height: 1.4;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="Mega 100 Logo - Transparent.png" alt="MEGA 100 FM Station Logo">
+    <img src="../Folder 2025/Mega 100FM Web/Mega 100 Logo - Transparent.png" alt="MEGA 100 FM Station Logo">
     <h1>MEGA 100FM</h1>
   </header>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#about">Sports</a>
+    <a href="#about">About</a>
     <a href="#listen">Listen</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
+	<a href="NEWS 1.html">News</a>
   </nav>
 
   <div class="hero">
@@ -223,8 +227,7 @@
     <audio controls>
         <source src="https://s2.myradiostream.com/8560/listen.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
-      </audio>
-	  
+    </audio>
   </div>
 
   <div class="content">
@@ -235,17 +238,18 @@
       <p>This is the biggest Urban-youth Radio in Northern Uganda for perfect Sports, Music and Entertainment. Located at Mega FM Building on Olya Road.</p>
     </section>
 
-     
+    
 
     <section id="gallery" class="section">
       <h2>Gallery</h2>
       <div class="gallery-grid">
-        <div class="gallery-item"><img src="Darker - Hotbreakfast (2).jpg"><p class="caption">Dak-ker </p></div>
-        <div class="gallery-item"><img src="Ronney Valencia - Hot Breakfast.jpg"><p class="caption">Valencia</p></div>
-        <div class="gallery-item"><img src="Landy Jay - 100 MIX Show - Request (3).jpg"><p class="caption">Landy Jay </p></div>
-        <div class="gallery-item"><img src="DJ Skizzy - 100MIX Show.jpg"><p class="caption">Dj Skizzy</p></div>
-        <div class="gallery-item"><img src="Nelson - The Sundowner and Sports.jpg"><p class="caption">Mr. Sports - Nelson</p></div>
-        <div class="gallery-item"><img src="Jacob Olwoc News (2) - Request Show.jpg"><p class="caption">Jacob Olwoc</p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Darker - Hotbreakfast (2).jpg"><p class="caption">Darker </p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Ronney Valencia - Hot Breakfast.jpg"><p class="caption">Valencia</p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Landy Jay - 100 MIX Show - Request (3).jpg"><p class="caption">Landy Jay </p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/DJ Skizzy - 100MIX Show.jpg"><p class="caption">Dj Skizzy</p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Nelson - The Sundowner and Sports.jpg"><p class="caption">Mr. Sports - Nelson</p></div>
+        <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Jacob Olwoc News (2) - Request Show.jpg"><p class="caption">Jacob Olwoc</p></div>
+		  <div class="gallery-item"><img src="Mao.jpg" - Sports.jpg"><p class="caption">Nobert Mao</p></div>
       </div>
     </section>
 
@@ -254,38 +258,22 @@
       <p><strong>Address:</strong> Independence House, Plot 11/13 Olya Rd, Gulu City, P.O. Box 358, Gulu, Uganda</p>
       <p><strong>Email:</strong> <a href="mailto:info@megafmug.com" style="color:#ffc107">info@megafmug.com</a></p>
       <p><strong>Phone:</strong> ONAIR - 0393228680</p>
-	  <p><strong>Phone:</strong> BUSSINESS 0779 757589 </p> 
+      <p><strong>Phone:</strong> BUSINESS - 0779757589 </p> 
     </section>
-
-    
   </div>
 
   <footer>
     <div class="social-icons">
-      <a href="#"><img src="facebook.jpg" alt="Facebook" width="24"></a>
-      <a href="#"><img src="x.png" alt="Twitter" width="24"></a>
-      <a href="#"><img src="instergram.jpg" alt="Instagram" width="24"></a>
+      <a href="#"><img src="../Folder 2025/Mega 100FM Web/facebook.jpg" alt="Facebook" width="24"></a>
+      <a href="#"><img src="../Folder 2025/Mega 100FM Web/x.png" alt="Twitter" width="24"></a>
+      <a href="#"><img src="../Folder 2025/Mega 100FM Web/instergram.jpg" alt="Instagram" width="24"></a>
     </div>
     <p>&copy; 2025 MEGA 100 FM. All rights reserved.</p>
-	  <section class="section">
-      <h2>Events & Calendar</h2>
-      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=en.uganda%23holiday%40group.v.calendar.google.com&ctz=Africa%2FKampala"></iframe>
-    </section>
-  </footer>
+    <section class="section">
+      
 
   <a href="https://wa.me/+256393228680" class="whatsapp-float" target="_blank">
-    <img src="whatsapp logo.png" alt="Chat on WhatsApp">
+    <img src="../Folder 2025/Mega 100FM Web/whatsapp logo.png" alt="Chat on WhatsApp">
   </a>
-
-  <script>
-    function updateClock() {
-      const now = new Date();
-      const timeString = now.toLocaleTimeString('en-UG', { hour12: false });
-      document.getElementById('clock').textContent = timeString;
-    }
-    setInterval(updateClock, 1000);
-    updateClock();
-  </script>
 </body>
 </html>
-
