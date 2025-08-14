@@ -249,7 +249,7 @@
         <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/DJ Skizzy - 100MIX Show.jpg"><p class="caption">Dj Skizzy</p></div>
         <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Nelson - The Sundowner and Sports.jpg"><p class="caption">Mr. Sports - Nelson</p></div>
         <div class="gallery-item"><img src="../Folder 2025/Mega 100FM Web/Jacob Olwoc News (2) - Request Show.jpg"><p class="caption">Jacob Olwoc</p></div>
-		  <div class="gallery-item"><img src="Mao.jpg" - Sports.jpg"><p class="caption">Nobert Mao</p></div>
+		  <div class="gallery-item"><img src="Mao.jpg"><p class="caption">Nobert Mao</p></div>
       </div>
     </section>
 
@@ -258,7 +258,7 @@
       <p><strong>Address:</strong> Independence House, Plot 11/13 Olya Rd, Gulu City, P.O. Box 358, Gulu, Uganda</p>
       <p><strong>Email:</strong> <a href="mailto:info@megafmug.com" style="color:#ffc107">info@megafmug.com</a></p>
       <p><strong>Phone:</strong> ONAIR - 0393228680</p>
-      <p><strong>Phone:</strong> BUSINESS - 0779757589 </p> 
+      <p><strong>Phone:</strong> BUSINESS 0779757589</p> 
     </section>
   </div>
 
@@ -268,12 +268,25 @@
       <a href="#"><img src="../Folder 2025/Mega 100FM Web/x.png" alt="Twitter" width="24"></a>
       <a href="#"><img src="../Folder 2025/Mega 100FM Web/instergram.jpg" alt="Instagram" width="24"></a>
     </div>
-    <p>&copy; 2025 MEGA 100 FM. All rights reserved.</p>
+    <p>&copy; 2025 MEGA 100 FM. Made by Dj Seeker. All rights reserved.</p>
     <section class="section">
-      
+      <h2>Events & Calendar</h2>
+      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=en.uganda%23holiday%40group.v.calendar.google.com&ctz=Africa%2FKampala"></iframe>
+    </section>
+  </footer>
 
   <a href="https://wa.me/+256393228680" class="whatsapp-float" target="_blank">
     <img src="../Folder 2025/Mega 100FM Web/whatsapp logo.png" alt="Chat on WhatsApp">
   </a>
+
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const timeString = now.toLocaleTimeString('en-UG', { hour12: false });
+      document.getElementById('clock').textContent = timeString;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
 </body>
 </html>
